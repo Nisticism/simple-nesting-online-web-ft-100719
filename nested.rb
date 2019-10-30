@@ -16,6 +16,7 @@ def hopper
         }
      }
 
+  programmer_hash[:grace_hopper]
 
 end
 
@@ -56,6 +57,9 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+    return_string = ""
+    return_string = programmer_hash[:dennis_ritchie][:languages]
+    return_string
 end
 
 def adding_matz
@@ -81,6 +85,7 @@ def adding_matz
         }
      }
 
+  programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]
     
 end
 
